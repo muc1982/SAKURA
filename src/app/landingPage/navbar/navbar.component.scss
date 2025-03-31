@@ -1,8 +1,7 @@
 nav{
     width: 100%;
-    padding: 32px;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 
     >img {
         width: 64px;
@@ -11,6 +10,10 @@ nav{
     div{
         width: 350px;
         display: flex;
+        justify-content: space-between;
+        text-align: end;
+        align-items: flex-end;
+        gap: 24px;
         >a{
             &:hover{
                 color: #ff0000;
