@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-imprint',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './imprint.component.html',
   styleUrl: './imprint.component.scss'
 })
